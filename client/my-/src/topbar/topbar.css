@@ -1,0 +1,63 @@
+.top {
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between; /* Space between elements */
+    align-items: center; /* Align items vertically centered */
+    background-color: #333; /* Optional: Background color */
+    padding: 0 20px; /* Optional: Padding for spacing */
+}
+
+.topLeft,
+.topRight {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topCenter {
+    flex-grow: 1; /* Allow the center to grow and take available space */
+    justify-content: center; /* Center the elements horizontally */
+}
+
+.topRight {
+    justify-content: flex; /* Align right elements to the end */
+}
+
+.topIcon {
+    color: white; /* Optional: Icon color */
+    margin-right: 10px; /* Space between icons */
+    font-size: 1.5rem; /* Optional: Icon size */
+}
+
+.topImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.topList{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+.topListItem
+{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.topSearchIcon {
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+    margin-left: 15px;
+}
